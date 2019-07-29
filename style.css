@@ -1,0 +1,52 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(147, 189, 192);
+  font-family: cursive;
+}
+#logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 228px;
+  border: 3px solid rgb(35, 61, 92);
+  padding: 10px;
+}
+#booktitles {
+  justify-content: space-around;
+  margin: auto;
+  list-style-type: none;
+  font-size: 1.05rem;
+  background-color: rgb(16, 97, 109);
+  color: white;
+  padding: 10px 0px;
+}
+
+h1 {
+  text-align: center;
+  padding: 40px;
+  color: white;
+}
+
+#booklist {
+  list-style-type: none;
+}
+
+#booklist li {
+  float: left;
+  width: 50%;
+  margin: auto;
+  padding: 0px 20px 20px 20px;
+}
+
+#booklist li p {
+  padding-top: 15px;
+}
+
+
+
